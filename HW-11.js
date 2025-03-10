@@ -14,8 +14,16 @@
 //     }
 // }
 
-const number = 5;
-const result = number > 0 ? 'positive' : (number < 0 ? 'negative' : 'zero');
+// const number = 5;
+// const result = number > 0 ? 'positive' : (number < 0 ? 'negative' : 'zero');
 
-console.log(result);
+// console.log(result);
 
+
+
+function myNumber(num){
+    return num > 0 ? "positive" : num < 0 ? "negative" : "zero";
+}
+console.log(myNumber(5));
+console.log(myNumber(-3));
+console.log(myNumber(0));
