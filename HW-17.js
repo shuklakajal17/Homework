@@ -11,7 +11,16 @@
 //     }
 // }
 
-const num = 55;
-const result = num % 5 === 0 ? 'divisible' : 'not divisible';
+// const num = 55;
+// const result = num % 5 === 0 ? 'divisible' : 'not divisible';
 
-console.log(result);
+// console.log(result);
+
+
+
+
+function myDivisibility(number){
+    return number % 5 === 0 ? "divisible" : "not divisible";
+}
+console.log(myDivisibility(55));
+console.log(myDivisibility(23));
