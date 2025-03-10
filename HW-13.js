@@ -13,7 +13,19 @@
 // }
 
 
-const age = 20;
-const result = age >= 18 ? 'elogible to vote' : 'not eligible to vote';
+// const age = 20;
+// const result = age >= 18 ? 'elogible to vote' : 'not eligible to vote';
 
-console.log(result);
+// console.log(result);
+
+
+
+function myEligibility(age){
+    return age > 18 ? "eligiable to vote" : "not eligiable";
+}
+console.log(myEligibility(20));
+console.log(myEligibility(16));
+
+
+
+
