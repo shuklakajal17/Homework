@@ -13,7 +13,16 @@
 // }
 
 
-const height = 180;
-const result = height >= 170 ? 'tall' : 'short';
+// const height = 180;
+// const result = height >= 170 ? 'tall' : 'short';
 
-console.log(result);
+// console.log(result);
+
+
+
+function myHeight(height){
+    return height >= 170 ? "tall" : "short";
+}
+
+console.log(myHeight(180));
+console.log(myHeight(165));
